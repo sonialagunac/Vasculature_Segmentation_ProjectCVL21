@@ -1,6 +1,6 @@
 This folder includes all the data, code and outputs used in the project "Vasculature Extraction from two-photon microscopy".
 
-Presented on  June 28th, 2021.
+Presented on  July 2nd, 2021.
 
 Work carried out by Sonia Laguna with the supervision of Gustav Bredell in the Biomedical Image Computing Group, Computer Vision Laboratory at ETH Zurich.
 
