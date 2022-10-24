@@ -7,7 +7,7 @@ All the steps are labeled and explained.
 
 Two main files for skeleton extraction: 
 
-##skeleton_pipeline_fromNN.py
+## skeleton_pipeline_fromNN.py
 
 Includes all the steps from the original microscopy image, runs the forward pass of a trained NN model and carries out the skeletonization pipeline. 
 Requires a GPU as the default example is running the unsupervised UMIS.
@@ -32,7 +32,7 @@ Inputs:
 - Scikit-image
 - Cv2
 
-##skeleton_pipeline_frompred.py
+## skeleton_pipeline_frompred.py
 Includes all the steps starting directly from the predicted segmentation from a NN and carries out the skeletonization pipeline. 
 Can run on GPU or CPU as there is no NN invovled. 
 Inputs: 
