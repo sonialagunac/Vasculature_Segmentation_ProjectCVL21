@@ -1,7 +1,7 @@
 # UMIS
 Official PyTorch implementation of "Unsupervised Microvascular Image Segmentation Using an Active Contours Mimicking Neural Network" ([link](https://arxiv.org/abs/1908.01373)). Adapted by Sonia Laguna.
 
-##Training:
+## Training:
 - training_UMIS.py: Script used to train the network using GPU. Paths to files required: 
     - Training dataset name: Desired name to store the checkpoint
     - Training dataset images path: Path to folder containing input images    
@@ -9,7 +9,7 @@ Official PyTorch implementation of "Unsupervised Microvascular Image Segmentatio
     - Saving loss: Path to desired loss location    
     - Set the checkpoint name: Name of the desired saved checkpoint. Will be stored in the location 'run\Training dataset name\Checkpoint name'
   
-##Testing\Inference:
+## Testing\Inference:
 - testing_UMIS.py: Scripts used to test the network using GPU. Paths to files required:
     - Validation image path: Path to test image file
     - Validation label path: Path to test labels file, if not available duplicate 'Validation image path'
