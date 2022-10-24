@@ -4,9 +4,9 @@ Presented on  July 2nd, 2021.
 
 Work carried out by Sonia Laguna with the supervision of Gustav Bredell in the Biomedical Image Computing Group, Computer Vision Laboratory at ETH Zurich.
 
-#Distribution of the files
+# Distribution of the files
 
-##Input data folder
+## Input data folder
 
 Includes the slices used for training and test of the DeepVess data and the InHouse data.
 
@@ -16,7 +16,7 @@ Includes the slices used for training and test of the DeepVess data and the InHo
 - additional_inhouse_data: Includes resampled files from the inhouse dataset that do not include ground truth annotations. Used to test the trained models. 
 
 Note: The original non-cropped files can also be find in the general input_data folder.
-##Code folder
+## Code folder
 
 - Models: Includes all the supervised and unsupervised deep learning and classical models carried out in this project. All architectures include their own README file with details on the code execution. Some READMEs have been adapted from the original files in the official paper implementations.
 - Skeleton_pipeline: Includes all the steps in the skeletonization pipeline. There are two versions: one from the original microscopy image, runs the forward pass of a trained NN model and carries out the skeletonization pipeline and another one starting directly from the predicted segmentation from a NN and carries out the skeletonization pipeline. A README file is included for clarification and usage purposes.
@@ -24,7 +24,7 @@ Note: The original non-cropped files can also be find in the general input_data 
 - JupyterNotebooks: Includes two Notebooks with examples on how the data was splitted, stored, normalized and evaluated in the project. 
 
 
-##Output data folder
+## Output data folder
   Contains all the output segmentations organized by dataset. The distributed folders are:
 
 - DeepVessDataSet: Includes the segmentation results from every model studied in the project together with the postprocessed supervised versions. Every file is named after the dataset and model used.
